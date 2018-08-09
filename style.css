@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	padding: 0;
-	/*background: #831F7A;*/
 }
 
 .container{
@@ -14,7 +13,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;  
-	margin-top: 30px;
+  margin-top: 30px;
   margin-bottom: 100px;
   transition: 500ms;
 	
@@ -26,8 +25,8 @@ body{
 }
 
 .form-wrap h3{
-	text-align: center;
-	font-size: 30px;
+ text-align: center;
+  font-size: 30px;
   letter-spacing: -2px;
   text-transform: uppercase;
   color: #353535;
@@ -38,7 +37,6 @@ body{
 
 
 form{
-  /*background: #64225E;*/
   padding: 50px 150px 50px 150px;
 }
 
@@ -61,22 +59,6 @@ form label input{
 }
 
 
-/*form label input::after {
-  content: '';
-  display: block;
-  width: 0%;
-  height: 2px;
-  background: #000;
-  transition: width .3s;
-}
-
-form label input:hover::after {
-  width: 100%;
-  transition: width .3s;
-}
-*/
-
-
 
 
 
@@ -91,7 +73,6 @@ form span{
 
 
 textarea { 
-   /*will prevent resizing horizontally*/
    resize:vertical;
    width: 600px;
    height: 60px;
@@ -160,30 +141,3 @@ input:focus{
     text-align: center;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
