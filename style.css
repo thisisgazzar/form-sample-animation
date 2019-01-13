@@ -85,18 +85,18 @@ input, textarea{
    background: #fff;
    border: none;
    border-bottom: 1px solid #ccc;
-   transition: 500ms;
+   transition: 300ms;
 }
 
 textarea:focus{
     outline: none;
-    border-width:2px;
+    border-width:1px;
     border-color: #255D6D;   
 }
 
 input:focus{
     outline: none;
-    border-width:2px; 
+    border-width:1px; 
     border-color: #255D6D;
 }
 
